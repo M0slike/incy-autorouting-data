@@ -1,10 +1,17 @@
 {
   "Name": "RU",
   "GlobalProxy": "true",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://d.pici.cc/dns-query",
+  "RemoteDNSIP": "94.183.188.192",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://d.pici.cc/dns-query",
+  "DomesticDNSIP": "94.183.188.192",
   "Geoipurl": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geoip.dat",
   "Geositeurl": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/geosite.dat",
   "DnsHosts": {
-    "d.sloniq.ru": "89.232.192.46"
+    "d.sloniq.ru": "89.232.192.46",
+    "d.pici.cc": "94.183.188.192"
   },
   "DirectSites": [],
   "DirectIp": [],
@@ -12,5 +19,5 @@
   "ProxyIp": [],
   "BlockSites": [],
   "BlockIp": [],
-  "DomainStrategy": "IPIfNonMatch"
+  "DomainStrategy": "AsIs"
 }
