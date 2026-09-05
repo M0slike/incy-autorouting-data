@@ -19,5 +19,6 @@
   "ProxyIp": [],
   "BlockSites": [],
   "BlockIp": [],
-  "DomainStrategy": "AsIs"
+  "DomainStrategy": "AsIs",
+  "FakeDNS": "false"
 }
